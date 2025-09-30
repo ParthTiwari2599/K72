@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Video from '../components/home/Video'
+import Video from '../components/home/video'
 import HomeHeroText from '../components/home/HomeHeroText'
 import HomeBottomText from '../components/home/HomeBottomText'
 import { useGSAP } from '@gsap/react'
