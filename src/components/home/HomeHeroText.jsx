@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../components/home/video'
+import Video from './video'
 
 const HomeHeroText = () => {
     return (
