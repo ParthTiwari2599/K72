@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: font1;
+    src: url(/fonts/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(/fonts/Lausanne-500.woff2);
+}
+
+/* X-axis scrollbar hide karne ke liye */
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+#root {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+.moveX{
+    animation-name: moveAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.moveLink{
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+.link:hover .moveLink{
+    opacity: 1;
+}
+
+@keyframes moveAnimation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
