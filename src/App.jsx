@@ -5,6 +5,7 @@ import Projects from './pages/project'
 import Navbar from './components/Navigation/Navbar'
 import FullScreenNav from './components/Navigation/FullScreenNav'
 
+
 const App = () => {
   return (
     <div className='overflow-x-hidden'>
