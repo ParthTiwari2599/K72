@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Agence from './pages/Agence'
+import Home from './pages/home'
+import Agence from './pages/agence'
 import Projects from './pages/Projects'
 import Navbar from './components/Navigation/Navbar'
 import FullScreenNav from './components/Navigation/FullScreenNav'
